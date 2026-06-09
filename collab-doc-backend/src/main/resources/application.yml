@@ -1,0 +1,58 @@
+spring:
+  profiles:
+    active: dev
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+  data:
+    redis:
+      host: 192.168.150.103
+      port: 6379
+      database: 0
+      password: 123456
+    elasticsearch:
+      uris: http://192.168.150.103:9200
+  ai:
+    openai:
+      api-key: sk-5fc461bd7693425eb692ea6dabb66888
+      base-url: https://api.deepseek.com
+      chat:
+        options:
+          model: deepseek-chat
+          max-tokens: 2048
+
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+    default-enum-type-handler: com.baomidou.mybatisplus.core.handlers.MybatisEnumTypeHandler
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      id-type: auto
+  type-enums-package: com.collabdoc.enums
+
+app:
+  jwt:
+    secret: Y29sbGFiZG9jLXN1cGVyLXNlY3JldC1rZXktZm9yLWp3dC10b2tlbi1nZW5lcmF0aW9uLTIwMjQ=
+    expiration-ms: 86400000
+  minio:
+    endpoint: http://192.168.150.103:9000
+    access-key: minioadmin
+    secret-key: minioadmin
+    bucket-name: collabdoc
+  elasticsearch:
+    url: http://192.168.150.103:9200
+
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+
+logging:
+  level:
+    org.springframework.security: DEBUG

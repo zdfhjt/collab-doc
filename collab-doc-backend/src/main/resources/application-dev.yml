@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://192.168.150.103:5432/collabdoc
+    username: collabdoc
+    password: collabdoc
+  jpa:
+    show-sql: true
