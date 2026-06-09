@@ -26,6 +26,8 @@ CollabDoc 是一个多人实时协作文档编辑平台，类似轻量版 Notion
 ai加持：
 
 
+<img width="480" height="243" alt="屏幕截图 2026-06-09 224813" src="https://github.com/user-attachments/assets/adf0ae61-0f70-4edc-85a1-aa5b599731c3" />
+
 
 
 
