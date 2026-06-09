@@ -7,19 +7,26 @@ CollabDoc 是一个多人实时协作文档编辑平台，类似轻量版 Notion
 
 注册页：
 
-
+<img width="2529" height="1210" alt="屏幕截图 2026-06-09 224213" src="https://github.com/user-attachments/assets/33d4d179-c530-4451-b1d0-12ce1bd519b1" />
 
 
 工作区首页：
 
+<img width="2232" height="1214" alt="屏幕截图 2026-06-09 220810" src="https://github.com/user-attachments/assets/699df9c7-1e74-405d-84a4-437aa4191a31" />
+
 
 点击一个工作区后进入工作区详情：
+
 <img width="2533" height="1194" alt="屏幕截图 2026-06-09 221118" src="https://github.com/user-attachments/assets/710c5229-dd4c-4ba3-a876-1495d9e3eee3" />
 
 版本控制：
+
 <img width="408" height="1133" alt="image" src="https://github.com/user-attachments/assets/8a4f8beb-5034-4b41-b61e-d33af9ed5cf5" />
 
 ai加持：
+
+
+
 
 
 邀请成员进入工作区：
