@@ -29,7 +29,13 @@ ai加持：
 
 
 
+
+
+
 邀请成员进入工作区：
+
+<img width="589" height="256" alt="image" src="https://github.com/user-attachments/assets/2c8dc2e1-1f70-44dd-be26-cf44f7b20b72" />
+
 
 
 
